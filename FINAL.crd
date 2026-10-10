@@ -5,7 +5,7 @@
   "generated_at": "2026-10-10T14:52:00Z",
   "source": {
     "repo": "https://github.com/Inkplain-Practical-Cases/practical--multi-tenant-ai-customer-onboarding-platform",
-    "revision": "step-06-emit-tenant-scoped-audit-trail",
+    "revision": "main",
     "roots": {
       "backend": "app"
     },
@@ -195,7 +195,7 @@
         }
       ],
       "attributes": {},
-      "step_change": "changed"
+      "step_change": "unchanged"
     },
     {
       "id": "be.service_validate",
@@ -435,17 +435,17 @@
         }
       ],
       "attributes": {},
-      "step_change": "added"
+      "step_change": "unchanged"
     }
   ],
   "dependencies": [],
   "unresolved": [],
   "step": {
-    "no": 6,
+    "no": "final",
     "of": 6,
-    "title": "Emit tenant-scoped audit trail",
-    "branch": "step-06-emit-tenant-scoped-audit-trail",
-    "previous": "STEP-5.crd",
+    "title": "Final version",
+    "branch": "main",
+    "previous": "STEP-6.crd",
     "removed": []
   }
 }

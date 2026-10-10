@@ -1,5 +1,11 @@
 # multi-tenant-ai-customer-onboarding-platform
 
-Junior FDE cumulative practical case. Install with `python -m pip install -r requirements.txt`, run `uvicorn app.main:app --reload` and validate with `pytest -q`.
+Six cumulative Junior FDE learning steps. Each step branch carries its own STEP-N.crd and STEP-N.md; main holds the final code and FINAL.crd.
 
-STEP-1 introduces a typed tenant-scoped HTTP contract. Later branches extend functionality while retaining earlier tests.
+## Run
+`python -m pip install -r requirements.txt`
+`python -m pytest -q`
+`uvicorn app.main:app --reload`
+
+## Simulator
+The six-tab INKP project is delivered in Stage 3.
