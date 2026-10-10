@@ -4,7 +4,7 @@
     "slug": "multi-tenant-ai-customer-onboarding-platform",
     "name": "Multi-Tenant AI Customer Onboarding Platform"
   },
-  "current": "content",
+  "current": "done",
   "stages": {
     "intro": {
       "status": "done",
@@ -49,12 +49,19 @@
       "updated_by": "api-key:for-chatgpt-test-2"
     },
     "content": {
-      "status": "in_progress",
-      "summary": "Publishing 8 categories, 35 educational lessons with source, CRD and INKP references.",
+      "status": "done",
+      "summary": "Eight categories and 35 public lessons verified. STEP-6 spot-check confirms INKP visualization, CRD tree and GitHub source blocks; six simulator tabs have zero broken executor links.",
       "started_at": "2026-10-10T15:34:03.347Z",
-      "finished_at": null,
-      "updated_by": "api-key:for-chatgpt-test-2"
+      "finished_at": "2026-10-10T15:38:24.354Z",
+      "updated_by": "api-key:for-chatgpt-test-2",
+      "outputs": {
+        "portal_url": "/practical-case/multi-tenant-ai-customer-onboarding-platform",
+        "categories": 8,
+        "items": 35,
+        "step_items": 24,
+        "structural_qa": true
+      }
     }
   },
-  "updated_at": "2026-10-10T15:34:03.347Z"
+  "updated_at": "2026-10-10T15:38:24.354Z"
 }
