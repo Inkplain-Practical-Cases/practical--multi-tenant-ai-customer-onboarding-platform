@@ -1,0 +1,39 @@
+{
+  "practical_case": {
+    "id": "xDTkLM78plaPv7bWCxJj",
+    "slug": "multi-tenant-ai-customer-onboarding-platform",
+    "name": "Multi-Tenant AI Customer Onboarding Platform"
+  },
+  "current": "inkp",
+  "stages": {
+    "intro": {
+      "status": "done",
+      "summary": "Junior FDE profile and skill links, seven substantial introduction sections and distinct visual cover confirmed by MCP read-back.",
+      "outputs": {
+        "portal_url": "/practical-case/multi-tenant-ai-customer-onboarding-platform",
+        "profile": "forward-deployed-engineering",
+        "level": "junior",
+        "intro_sections": 7,
+        "cover_url": "https://firebasestorage.googleapis.com/v0/b/pds-production-test.firebasestorage.app/o/knowledge%2Flibrary%2F1791643104334_multi-tenant-ai-customer-onboarding-platform-cover.png?alt=media&token=754dae7f-73d6-4d78-9b79-04207ad7afeb"
+      },
+      "started_at": "2026-10-10T14:39:22.536Z",
+      "finished_at": "2026-10-10T14:39:22.536Z",
+      "updated_by": "api-key:for-chatgpt-test-2"
+    },
+    "repo": {
+      "status": "done",
+      "summary": "Six cumulative teaching STEP branches, FINAL.crd/main, latest GitHub CI success on all six STEP refs and main; STEP-1 duplicate tenant schema repaired in follow-up commit. Subsequent branches retain original parent commit, so branch ancestry should be normalized separately.",
+      "started_at": "2026-10-10T14:41:19.282Z",
+      "finished_at": "2026-10-10T15:32:54.600Z",
+      "updated_by": "api-key:for-chatgpt-test-2",
+      "outputs": {
+        "repo_url": "https://github.com/Inkplain-Practical-Cases/practical--multi-tenant-ai-customer-onboarding-platform",
+        "steps": 6,
+        "ci_success": 7,
+        "ci_total": 7,
+        "history_followup_required": true
+      }
+    }
+  },
+  "updated_at": "2026-10-10T15:32:54.600Z"
+}
