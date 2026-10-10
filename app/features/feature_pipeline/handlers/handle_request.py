@@ -5,10 +5,12 @@ from app.features.feature_pipeline.services.service_configure import service_con
 from app.features.feature_pipeline.services.service_assign_roles import service_assign_roles
 from app.features.feature_pipeline.services.service_provision import service_provision
 from app.features.feature_pipeline.services.service_readiness import service_readiness
+from app.features.feature_pipeline.services.service_audit import service_audit
 def handle_request(body: TenantRequest) -> dict:
     state=service_validate(body.model_dump())
     state=service_configure(state)
     state=service_assign_roles(state)
     state=service_provision(state)
     state=service_readiness(state)
+    state=service_audit(state)
     return state

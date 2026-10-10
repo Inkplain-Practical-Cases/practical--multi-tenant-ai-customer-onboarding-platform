@@ -1,11 +1,11 @@
 {
   "crd_version": 1,
-  "name": "Tenant onboarding STEP-5",
-  "description": "Check deployment readiness",
+  "name": "Tenant onboarding STEP-6",
+  "description": "Emit tenant-scoped audit trail",
   "generated_at": "2026-10-10T14:52:00Z",
   "source": {
     "repo": "https://github.com/Inkplain-Practical-Cases/practical--multi-tenant-ai-customer-onboarding-platform",
-    "revision": "step-05-check-deployment-readiness",
+    "revision": "step-06-emit-tenant-scoped-audit-trail",
     "roots": {
       "backend": "app"
     },
@@ -171,6 +171,19 @@
             "type": "call",
             "label": "invokes",
             "evidence": "app/features/feature_pipeline/handlers/handle_request.py: service_readiness(state)"
+          }
+        },
+        {
+          "id": "op-5",
+          "title": "service_audit",
+          "origin": "imported",
+          "description": "Call service_audit",
+          "show": true,
+          "calls": {
+            "component": "be.service_audit",
+            "type": "call",
+            "label": "invokes",
+            "evidence": "app/features/feature_pipeline/handlers/handle_request.py: service_audit(state)"
           }
         }
       ],
@@ -382,17 +395,57 @@
         }
       ],
       "attributes": {},
+      "step_change": "unchanged"
+    },
+    {
+      "id": "be.service_audit",
+      "name": "service_audit",
+      "kind": "function",
+      "side": "backend",
+      "layer": "service",
+      "description": "Onboarding service_audit",
+      "flows": [
+        "onboard"
+      ],
+      "source": {
+        "file": "app/features/feature_pipeline/services/service_audit.py",
+        "symbol": "service_audit",
+        "lines": [
+          1,
+          35
+        ]
+      },
+      "owner": "feature_pipeline",
+      "component_reason": "Observed tenant onboarding function",
+      "status": "observed",
+      "inputs": [
+        {
+          "id": "state",
+          "name": "state",
+          "description": "Tenant-scoped request state"
+        }
+      ],
+      "validations": [],
+      "operations": [],
+      "outputs": [
+        {
+          "id": "state",
+          "name": "result",
+          "description": "Updated onboarding state"
+        }
+      ],
+      "attributes": {},
       "step_change": "added"
     }
   ],
   "dependencies": [],
   "unresolved": [],
   "step": {
-    "no": 5,
+    "no": 6,
     "of": 6,
-    "title": "Check deployment readiness",
-    "branch": "step-05-check-deployment-readiness",
-    "previous": "STEP-4.crd",
+    "title": "Emit tenant-scoped audit trail",
+    "branch": "step-06-emit-tenant-scoped-audit-trail",
+    "previous": "STEP-5.crd",
     "removed": []
   }
 }
