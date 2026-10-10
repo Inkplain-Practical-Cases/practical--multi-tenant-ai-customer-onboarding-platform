@@ -47,7 +47,14 @@
       "started_at": "2026-10-10T15:33:48.034Z",
       "finished_at": "2026-10-10T15:33:48.034Z",
       "updated_by": "api-key:for-chatgpt-test-2"
+    },
+    "content": {
+      "status": "in_progress",
+      "summary": "Publishing 8 categories, 35 educational lessons with source, CRD and INKP references.",
+      "started_at": "2026-10-10T15:34:03.347Z",
+      "finished_at": null,
+      "updated_by": "api-key:for-chatgpt-test-2"
     }
   },
-  "updated_at": "2026-10-10T15:33:48.034Z"
+  "updated_at": "2026-10-10T15:34:03.347Z"
 }
