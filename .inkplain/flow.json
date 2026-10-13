@@ -50,7 +50,7 @@
     },
     "content": {
       "status": "done",
-      "summary": "Source audit of six pipeline services: tenant config, roles, resource provisioning and audit are temporary request dictionaries, not stored tables or collections. No persistence-backed .erd is warranted.",
+      "summary": "Extended STEP-6 with real SQLite request/event audit persistence, source-derived ERD, .inkp tab and second-position database lesson; MCP summary and lesson order verified.",
       "started_at": "2026-10-10T15:34:03.347Z",
       "finished_at": "2026-10-10T15:38:24.354Z",
       "updated_by": "api-key:for-chatgpt-test-2",
@@ -61,12 +61,14 @@
         "step_items": 24,
         "structural_qa": true,
         "erd_audit_complete": true,
-        "erd_applicable_steps": [],
+        "erd_applicable_steps": [
+          6
+        ],
         "erd_item_title": "Database (Entity) Relations",
-        "erd_lessons_created": 0,
-        "erd_not_applicable": true
+        "erd_lessons_created": 1,
+        "erd_not_applicable": false
       }
     }
   },
-  "updated_at": "2026-10-13T13:40:47.214Z"
+  "updated_at": "2026-10-13T15:49:36.346Z"
 }
