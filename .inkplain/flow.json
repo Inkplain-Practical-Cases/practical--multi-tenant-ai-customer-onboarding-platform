@@ -50,7 +50,7 @@
     },
     "content": {
       "status": "done",
-      "summary": "Eight categories and 35 public lessons verified. STEP-6 spot-check confirms INKP visualization, CRD tree and GitHub source blocks; six simulator tabs have zero broken executor links.",
+      "summary": "Source audit of six pipeline services: tenant config, roles, resource provisioning and audit are temporary request dictionaries, not stored tables or collections. No persistence-backed .erd is warranted.",
       "started_at": "2026-10-10T15:34:03.347Z",
       "finished_at": "2026-10-10T15:38:24.354Z",
       "updated_by": "api-key:for-chatgpt-test-2",
@@ -59,9 +59,14 @@
         "categories": 8,
         "items": 35,
         "step_items": 24,
-        "structural_qa": true
+        "structural_qa": true,
+        "erd_audit_complete": true,
+        "erd_applicable_steps": [],
+        "erd_item_title": "Database (Entity) Relations",
+        "erd_lessons_created": 0,
+        "erd_not_applicable": true
       }
     }
   },
-  "updated_at": "2026-10-10T15:38:24.354Z"
+  "updated_at": "2026-10-13T13:40:47.214Z"
 }
